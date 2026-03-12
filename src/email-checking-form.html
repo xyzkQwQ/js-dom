@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="css/email.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Vérification email</title>
+    <script src="js/email-checking-form.js"defer></script>
 </head>
 <body>
-
-    <script src="js/email-checking-form.js"></script>
+    <legend><b>Email : </b></legend>
+    <input type="email" name="emailInput" placeholder="Entrez votre email">
+    <input type="button" id="button-choice" value="Vérifier">
+    <p id="message"></p>
 </body>
 </html>
