@@ -11,9 +11,8 @@ document.querySelector("#button-choice").addEventListener("click", function () {
 
     let message = document.querySelector("#message");
 
-    if (email === "") {
-        message.textContent = "Veuillez entrer un email valide.";
-        message.classList.remove("success");
+    if (email.trim() === "") {
+        message.textContent = "Veuillez entrer un email.";
         message.classList.add("error");
         return;
     }

@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial;
+}
+
+td{
+    border:1px solid #ccc;
+    width:65px;
+    height:65px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:21px;
+}
+
+
+/* ligne du haut */
+tr:first-child td{
+    background:#2a78b3;
+    color:white;
+    font-weight:bold;
+}
+
+/* première colonne */
+td:first-child{
+    background:#2a78b3;
+    color:white;
+    font-weight:bold;
+}
